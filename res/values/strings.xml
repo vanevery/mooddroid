@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructionsText">What\'s your current mood?</string>
+    <string name="editInstructionsText">Select Mood to Edit</string>
+    <string name="app_name">MoodDroid</string>
+	<string name="no_moods">No Moods Found</string>
+	<color name="white">#FFFFFF</color>
+	<string name="save_mood">Save</string>
+	<string name="mood_tag">What\'s going on?</string>
+	<string name="use_location">Save location?</string>
+	<string name="save_mood_head">Save Current Mood</string>
+	<string name="view_mood_updates">View Mood Updates</string>
+	<string name="edit_moods">Edit Moods</string>
+	<string name="mood_saved">Mood Saved</string>
+	<string name="failed">Failed</string>
+	<string name="edit_mood_head">Edit Mood</string>
+	<string name="display_mood">Display Mood?</string>
+	<string name="select_mood_value">Select Mood Value</string>
+	<string name="edit_service">Edit Reminders</string>
+	<string name="moodReminderServiceInstructionsText">Would you like random mood update reminders?</string>
+	<string name="reminders_on">Reminders On/Off</string>
+	<string name="save_reminder_settings">Save Settings</string>
+	<string name="menu_settings">Edit Settings</string>
+	<string name="settingsInstructionsText">Select the order of the moods displayed</string>
+	<string name="menu_about">About</string>
+	<string name="abouttext">MoodDroid is ...</string>
+</resources>

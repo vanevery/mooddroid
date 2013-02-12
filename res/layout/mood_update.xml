@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/save_mood_head_tv" android:text="@string/save_mood_head" android:textSize="21sp" android:paddingBottom="10sp" android:gravity="center_horizontal|center" android:layout_gravity="center_horizontal|center"></TextView>
+
+	<TextView android:text="@+id/mood_name" android:id="@+id/mood_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="20sp" android:layout_gravity="center_horizontal|center" android:textSize="22sp" android:textColor="@color/white"></TextView>
+
+	<!--  Include Location? -->
+	<!--  Send Tweet? -->
+
+	<EditText android:text="@string/mood_tag" android:id="@+id/mood_tag" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingBottom="20sp"></EditText>
+
+	<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/use_location" android:text="@string/use_location"></CheckBox>
+
+	<Button android:text="@string/save_mood" android:id="@+id/save_mood" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center|clip_horizontal" android:layout_gravity="center_horizontal|center" android:paddingRight="30sp" android:paddingLeft="30sp" android:textSize="18sp"></Button>
+</LinearLayout>
